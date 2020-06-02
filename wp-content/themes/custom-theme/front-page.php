@@ -1,27 +1,16 @@
 <?php get_header(); ?>
 
-<section class="hero">
-    <div class="hero__page">
-        <div class="hero__bg" style="background-image: url(<?php echo get_theme_file_uri('img/hero.png'); ?>);"></div>
-        <div class="hero__content text-center">
-            <h1 class="headline headline--large">Welcome!</h1>
-            <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
-        </div>
-    </div>
-</section>
-
-
-<section class="content">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-                <h3 class="text-center">Upcoming Events</h3>
-            </div>
-            <div class="col-6">
-                <h3 class="text-center">From Our Blogs</h3>
+<!-- About-->
+<section class="page-section bg-primary" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">We've got what you need!</h2>
+                <hr class="divider light my-4" />
+                <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
             </div>
         </div>
     </div>
 </section>
-
 <?php get_footer(); ?>
